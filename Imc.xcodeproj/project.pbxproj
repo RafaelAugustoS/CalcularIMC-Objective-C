@@ -13,6 +13,7 @@
 		ACB02D8A212885D100844ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB02D89212885D100844ACC /* Assets.xcassets */; };
 		ACB02D8D212885D100844ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB02D8B212885D100844ACC /* LaunchScreen.storyboard */; };
 		ACB02D90212885D100844ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB02D8F212885D100844ACC /* main.m */; };
+		ACB02D982128874300844ACC /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB02D972128874300844ACC /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ACB02D8C212885D100844ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB02D8E212885D100844ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB02D8F212885D100844ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACB02D962128874300844ACC /* Pessoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		ACB02D972128874300844ACC /* Pessoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				ACB02D8B212885D100844ACC /* LaunchScreen.storyboard */,
 				ACB02D8E212885D100844ACC /* Info.plist */,
 				ACB02D8F212885D100844ACC /* main.m */,
+				ACB02D962128874300844ACC /* Pessoa.h */,
+				ACB02D972128874300844ACC /* Pessoa.m */,
 			);
 			path = Imc;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				ACB02D85212885CF00844ACC /* ViewController.m in Sources */,
 				ACB02D90212885D100844ACC /* main.m in Sources */,
+				ACB02D982128874300844ACC /* Pessoa.m in Sources */,
 				ACB02D82212885CF00844ACC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
